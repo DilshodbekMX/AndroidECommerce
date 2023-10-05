@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="attendance.models.Attendance.objects" />
+          <option value="attendance.models.School.objects" />
+          <option value="attendance.models.Student.objects" />
+          <option value="attendance.models.Teacher.objects" />
+          <option value="attendance.models.SchoolClass.objects" />
+          <option value="FireFighters.director.models.CameraModel.objects" />
+          <option value="FireFighters.director.views.authentication" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
